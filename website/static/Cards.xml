@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cartas>
+    <Carta>
+        <Nombre>Ángel Guardián</Nombre>
+        <Mana>4W</Mana>
+        <Tipo>Criatura — Ángel</Tipo>
+        <Descripcion>Vuela. Cuando Ángel Guardián entra al campo de batalla, puedes ganar 4 puntos de vida.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Espada de los Ancestros</Nombre>
+        <Mana>3</Mana>
+        <Tipo>Artefacto — Equipo</Tipo>
+        <Descripcion>La criatura equipada obtiene +3/+3. Equipa: 2.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Dragón de las Llamas</Nombre>
+        <Mana>5RR</Mana>
+        <Tipo>Criatura — Dragón</Tipo>
+        <Descripcion>Vuela. Cuando Dragón de las Llamas ataca, inflige 3 puntos de daño a cualquier objetivo.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Mago de los Espejismos</Nombre>
+        <Mana>2U</Mana>
+        <Tipo>Criatura — Humano Hechicero</Tipo>
+        <Descripcion>Siempre que lances un hechizo instantáneo, roba una carta.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Espectro Sombrío</Nombre>
+        <Mana>3BB</Mana>
+        <Tipo>Criatura — Espectro</Tipo>
+        <Descripcion>Vuela. Siempre que Espectro Sombrío haga daño a un jugador, ese jugador descarta una carta.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Coloso de Hierro</Nombre>
+        <Mana>7</Mana>
+        <Tipo>Artefacto — Golem</Tipo>
+        <Descripcion>No puede ser bloqueado excepto por criaturas con fuerza mayor o igual a 5.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Guardián del Bosque</Nombre>
+        <Mana>3G</Mana>
+        <Tipo>Criatura — Espíritu Elemental</Tipo>
+        <Descripcion>Al comienzo de tu mantenimiento, agrega G a tu reserva de maná.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Hechizo de Confusión</Nombre>
+        <Mana>1U</Mana>
+        <Tipo>Instantáneo</Tipo>
+        <Descripcion>Devuelve la criatura objetivo a la mano de su propietario.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Desplazador de Sombras</Nombre>
+        <Mana>2BB</Mana>
+        <Tipo>Criatura — Asesino</Tipo>
+        <Descripcion>Destruye la criatura objetivo al entrar en el campo de batalla.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Resurrección</Nombre>
+        <Mana>3W</Mana>
+        <Tipo>Conjuro</Tipo>
+        <Descripcion>Devuelve la carta de criatura objetivo de tu cementerio al campo de batalla.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Fuerza Ancestral</Nombre>
+        <Mana>2G</Mana>
+        <Tipo>Encantamiento</Tipo>
+        <Descripcion>La criatura encantada obtiene +4/+4 y tiene vigilancia.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Chispa Relampagueante</Nombre>
+        <Mana>R</Mana>
+        <Tipo>Instantáneo</Tipo>
+        <Descripcion>Inflige 3 puntos de daño a cualquier objetivo.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Hada Ilusionista</Nombre>
+        <Mana>1U</Mana>
+        <Tipo>Criatura — Hada</Tipo>
+        <Descripcion>Vuela. Siempre que lances un hechizo azul, puedes robar una carta y luego descartar una carta.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Troll de las Cavernas</Nombre>
+        <Mana>4G</Mana>
+        <Tipo>Criatura — Troll</Tipo>
+        <Descripcion>Regeneración. Puedes pagar G para regenerar al Troll de las Cavernas.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Armadura de Espíritus</Nombre>
+        <Mana>1W</Mana>
+        <Tipo>Encantamiento</Tipo>
+        <Descripcion>La criatura encantada obtiene +1/+1 por cada criatura en tu cementerio.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Necromante Oscuro</Nombre>
+        <Mana>2B</Mana>
+        <Tipo>Criatura — Hechicero Zombie</Tipo>
+        <Descripcion>Cuando Necromante Oscuro muere, devuelve otra carta de criatura de tu cementerio a tu mano.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Fénix de Fuego</Nombre>
+        <Mana>3R</Mana>
+        <Tipo>Criatura — Fénix</Tipo>
+        <Descripcion>Vuela. Cuando Fénix de Fuego muere, puedes pagar 1R para devolverlo a tu mano.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Lobo Nocturno</Nombre>
+        <Mana>2G</Mana>
+        <Tipo>Criatura — Lobo</Tipo>
+        <Descripcion>Vigilancia. Al comienzo de tu paso final, si controlas tres o más criaturas, Lobo Nocturno obtiene +1/+1 hasta el final del turno.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Esfera de Protección</Nombre>
+        <Mana>2</Mana>
+        <Tipo>Artefacto</Tipo>
+        <Descripcion>Los hechizos que tus oponentes lanzan que te hagan objetivo cuestan 1 más para lanzarse.</Descripcion>
+    </Carta>
+    <Carta>
+        <Nombre>Rayo Fulminante</Nombre>
+        <Mana>RR</Mana>
+        <Tipo>Conjuro</Tipo>
+        <Descripcion>Inflige 5 puntos de daño a la criatura o jugador objetivo.</Descripcion>
+    </Carta>
+</Cartas>
