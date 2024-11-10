@@ -40,3 +40,5 @@ Per a mostrar les cartes, usarem `<xsl:for-each select="Carta">`, i per agafar e
 
 
 # Exercici 3
+Nosaltres hem escollit Flask per poder fer el formulari, el que fem al html de addCard es fer un Form amb method=POST que crida la funcio d'afegir carta del auth.py `<form action="/afegirCarta" method="POST">`. Un cop es fa click al boto submit es crida el codi de pyhton el cual utilitzant la llibreria Request que es de Flask agafem l'informacio que l'usuari a posat al formulari, despres cridem a la funcio excriure xml pasant les variables recolectades 
+`escriure_xml(nombre,mana,tipo,descripcion)`, el cual s'encarrega d'escriure el xml.
