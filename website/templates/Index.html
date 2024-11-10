@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{%block content%}
+<article>
+    <ul>
+        <button class="mi-boton" onclick=transformarYMostrar()>Ver Cartas</button>
+        <button class="mi-boton" onclick="window.location.href='/formulari'">Nueva Carta</button>
+    </ul>
+</article>
+<script>
+    function transformarYMostrar() {
+        // Cargar el XML
+        fetch('../static/Cards.xml')
+            .then(response => response.text())
+            .then(xmlText => {
+                const parser = new DOMParser();
+                const xml = parser.parseFromString(xmlText, 'application/xml');
+
+                // Cargar el XSLT
+                fetch('../static/showCard.xslt')
+                    .then(response => response.text())
+                    .then(xsltText => {
+                        const xslt = parser.parseFromString(xsltText, 'application/xml');
+
+                        // Realizar la transformación XSLT
+                        const xsltProcessor = new XSLTProcessor();
+                        xsltProcessor.importStylesheet(xslt);
+                        const resultDocument = xsltProcessor.transformToDocument(xml);
+
+                        // Crear una nueva ventana con el resultado
+                        const newWindow = window.open();
+                        newWindow.document.write(new XMLSerializer().serializeToString(resultDocument));
+                    });
+            })
+            .catch(error => console.error('Error cargando los archivos:', error));
+    }
+</script>
+{%endblock%}
