@@ -2,6 +2,11 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=17027388&assignment_repo_type=AssignmentRepo)
 
 
+# M07_Desenvolupament d’interfícies
+## P2 (Pràctica 2)
+Integrants: Albert Grau Loscos i Nil Jou Gispert
+
+
 ## Com executar el projecte
 1. Descarregar python 3.13: https://www.python.org/downloads/
 
@@ -22,23 +27,23 @@ Així pots utilitzar la nostra web feta amb flask.
 
 
 
-# Execici 1
-## HTML
+## Execici 1
+### HTML
 Utilitzem bootstrap `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">` per a fer el css amb mes facilitat.
 També Django, un framework de Python utilitzamble a HTML, serveix per a tenir una base en blocs de text o imatges, que cambien depenent el contingut dels contenidors `{% block content%}`, despres aquest contenidors es poden omplir amb codi HTML `<div class="container mt-5">`.
 
 
-## XML
+### XML
 Creem un xml que, contingui les Cartes, cada Carta, conte un nom, un manà, un tipus, i una descripcio.
 
 Amb `<?xml-stylesheet type="text/xsl" href="showCard.xsl"?>`, linquegem el nostre XML amb el XSL.
 
 
-## XSLT
+### XSLT
 Dintre del XSL creem una estroctura de web amb html.
 Per a mostrar les cartes, usarem `<xsl:for-each select="Carta">`, i per agafar el contingut utilitzarem `<xsl:value-of select="Nombre"/>`, amb cada un sels elements que volguem mostrar.
 
 
-# Exercici 3
+## Exercici 3
 Nosaltres hem escollit Flask per poder fer el formulari, el que fem al html de addCard es fer un Form amb method=POST que crida la funcio d'afegir carta del auth.py `<form action="/afegirCarta" method="POST">`. Un cop es fa click al boto submit es crida el codi de pyhton el cual utilitzant la llibreria Request que es de Flask agafem l'informacio que l'usuari a posat al formulari, despres cridem a la funcio excriure xml pasant les variables recolectades 
 `escriure_xml(nombre,mana,tipo,descripcion)`, el cual s'encarrega d'escriure el xml.
