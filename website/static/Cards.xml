@@ -1,11 +1,12 @@
-<?xml version="1.0" ?>
-<Cartas>
-    <Carta>
-        <Nombre>Ángel Guardián</Nombre>
-        <Mana>4W</Mana>
-        <Tipo>Criatura — Ángel</Tipo>
-        <Descripcion>Vuela. Cuando Ángel Guardián entra al campo de batalla, puedes ganar 4 puntos de vida.</Descripcion>
+<?xml version="1.0" ?> <!-- Definim la versio de XML que utilitzarem -->
+<Cartas> <!-- Creem un element Pare -->
+    <Carta> <!-- Usarem l'element Carta per a crear totes les cartes -->
+        <Nombre>Ángel Guardián</Nombre> <!-- Guardarem el nom -->
+        <Mana>4W</Mana> <!-- Guardarem el mana que costen -->
+        <Tipo>Criatura — Ángel</Tipo> <!-- Guardarem el Tipus que carta que es -->
+        <Descripcion>Vuela. Cuando Ángel Guardián entra al campo de batalla, puedes ganar 4 puntos de vida.</Descripcion> <!-- Guardarem una breu descripcio del que fa la carta -->
     </Carta>
+    <!-- Afagirem 19 cartes més -->
     <Carta>
         <Nombre>Espada de los Ancestros</Nombre>
         <Mana>3</Mana>
